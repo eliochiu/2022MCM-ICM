@@ -1,0 +1,98 @@
+\section{\textsc {Task \uppercase\expandafter{\romannumeral2}}: EEC(\underline{E}cological-\underline{E}conomic-\underline{C}ultural) Value Model}
+
+\subsection{Model Overview}
+
+Forest resources can have a far-reaching impact on human society. The value of forests is often not only reﬂected in the function of carbon sequestration. To assess the value of forests concisely and comprehensively so that facilitate forest managers can be informed of the best use of forests, we divide the total value of forests($TV$) into three categories: ecologic values($V_{ec}$), economic values($V_{pro}$) and cultural values($V_{cu}$).\cite{value1}\cite{value2} %$\eta_i,(i=1,2,3)$ is the weight coefficient used to determine different target oriented forest management strategies in task {Task \uppercase\expandafter{\romannumeral3}} 
+
+
+\begin{equation}
+TV= V_{ec}+ V_{pr}+ V_{cu}
+\end{equation}
+
+\subsection{Forest Value Quantification System}
+\subsubsection{Ecological Value}
+The ecologic values of forests can be categorized into the value of carbon sequestration \qquad ($V_{carbon}$), water conservation($V_{water}$), soil consolidation($V_{soil}$),air purification($V_{air}$) and specise protection($V_{species}$).
+
+\begin{equation}
+V_{ec} = V_{carbon} + V_{water} + V_{soil} + V_{air}+V_{species}
+\end{equation}
+
+\textbf{Value of Carbon Sequestration}
+
+Using the model in {Task \uppercase\expandafter{\romannumeral1}}, equation (12), we can calculate the $TLS$ of the forest. So the value of carbon sequestration can be easily calculated using the unit price of carbon($C_{carbon}$).
+
+\begin{equation}
+V_{carbon} = TCS\times C_{carbon}
+\end{equation}
+
+\textbf{Value of Water Conservation}
+
+Forest can intercept and absorb most of the precipitation to conserve water sources. We choose two indicators: water storage and purified water quality to reflect the water conservation value of forests.
+First, we calculate the annual increase of accumulated precipitation in the forest ecosystem in the study area($Q$) by the following formula where $P_t$ is the amount of the annual rainfall,$R$ is the amount of the  annual surface runoff and $EF$ is the evaporation capacity.
+
+\begin{equation}
+Q = S_{ma}\times (P_{t}-R-EF)
+\end{equation}
+
+Storage function and purifying function of forest can be evaluated by the alternative engineering method and restoration cost method respectively where $C_{res}$ is the unit cost of reservoir construction, and $K_{pure}$ is the local tap water purification cost.
+
+\begin{equation}
+V_{water} = Q\times (C_{res} + K_{pure})
+\end{equation}
+
+\textbf{Value of Soil Consolidation}
+
+Forests have the value of soil consolidation.The annual soil quality of forest conservation ($G_{soil}$) can be calculated in the following equation where $X_1$ is the actual annual soil erosion modulus of forest land and $X_2$ is the potential annual soil erosion modulus of forest land.
+
+\begin{equation}
+G_{soil} = S_{ma}\times (X_2 - X_1)
+\end{equation}
+
+We use opportunity cost method to calculate value and the indicators include average annual income of forestry($P$),annual soil quality of forest conservation, soil thickness($H$) and average bulk density of soil($\rho$) to calculate the value of soil consolidation.
+\begin{equation}
+V_{soil}=P \times \frac{G_{soil}}{\rho \times H}
+\end{equation}
+\newpage
+\textbf{Value of Air Purification}
+
+Forest can absorb and decompose air pollutants. The value of forest purifying air pollutants includes the value of absorbing sulfur dioxide, fluoride and nitrogen oxides. The recovery cost method can be used for evaluation where $K_{SO_{2}}$,$K_{NO_{x}}$ and $K_{dust}$are the cost reduction for sulfur dioxide, fluoride and nitrogen oxides and  $W_{SO_{2}}$,$W_{NO_{x}}$ and $W_{dust}$ are the annual absorption of sulfur dioxide, fluoride and nitrogen oxides by forests.
+
+\begin{equation}
+V_{air}= S_{ma} \times (K_{SO_{2}}W_{SO_{2}} + K_{NO_{x}}W_{NO_{x}}+ K_{dust}W_{dust})
+\end{equation}
+
+\textbf{Value of Species Protection}
+
+As the main habitat of natural biological species, the forest ecosystem is an important place for the survival and reproduction of valuable germplasm.  We use the achievement reference method to evaluate this kind of value.$V_{s}$ is the annual conservation value of forest species per unit area.
+
+\begin{equation}
+V_{species} = S_{ma} \times V_{s}
+\end{equation}
+
+\subsubsection{Economic Value}
+
+The forest products provided by wood in the forest for human beings are its direct economic value, which can be obtained by calculating the final profit of the trade. Where j is the region of the forest, $p_i$ is the average price per tonne of Tab. [\ref{table3}]'s different products.
+
+\begin{equation}
+V_{pr} =  S\alpha \omega \sum_{i=1}^5 pp_{i,j}p_{i}
+\end{equation}
+
+\subsubsection{Cultural Value}
+
+The cultural value of the forest ecosystem is to provide human development cognition and help people gain pleasant experiences in the process of interaction between humans and the forest. So we categorize cultural value of the forest into recreation value and scientific research value.
+
+\begin{equation}
+V_{cu} = V_{rec} + V_{sci}
+\end{equation}
+
+The travel cost method is a widely used method in evaluating forest recreation value in the world. We use the annual recreation value per unit area of forest ($P_{to}$) and the proportion of forest tourism area in the total area($\sigma$) to calculate the recreation value.
+
+\begin{equation}
+V_{rec} = P_{to}\times (S_{ma} \times \sigma)
+\end{equation}
+
+Forests are an important base for scientific research so the value of forestry science and technology can be reflected through the calculation of its output and the contribution rate where  $P_o$ is the annual output value of forestry and $E_{a}$ is the contribution rate of the forestry science and technology.
+
+\begin{equation}
+V_{sci} = P_{o} \times E_{a}
+\end{equation}
